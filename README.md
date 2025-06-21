@@ -1,3 +1,7 @@
 # pir-shab
-<img src="" style="text-align:center">
-Pir Shab is a discord bot project
+<div style="text-align: center;">
+  <img>
+  <h2>Pir Shab</h2>
+</div>
+
+Pir Shab is a discord bot project which is <p style="color: darkred;">In Devlopment</p>. It will be updated day by day. Keep following this repo.
