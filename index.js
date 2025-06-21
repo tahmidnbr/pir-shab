@@ -6,7 +6,12 @@ const { Client, Collection, Events, GatewayIntentBits, MessageFlags } = require(
 const { token } = require('./config.json');
 
 // Create a new client instance
-const client = new Client({ intents: [GatewayIntentBits.Guilds] });
+const client = new Client({ intents: [
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildMessages,
+    GatewayIntentBits.MessageContent, // REQUIRED for message.content
+    GatewayIntentBits.DirectMessages, // If you want it to work in DMs too
+] });
 
 //Handles Commands
 client.commands = new Collection();
